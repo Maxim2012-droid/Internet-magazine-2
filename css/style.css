@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgrey;
+    font-family:"Roboto Flex", sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#mather{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.logo{
+    width: 25%;
+}
+
+nav{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.time{
+    width: 35%;
+    margin: 20px 0 0 400px;
+}
+
+img{
+    width: 70px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#serfiel{
+    width: 60%;
+    height: 30px;
+    margin: 30px 0 0 300px;
+    border-radius: 10px;
+    padding: 0 0 0 20px;
+    outline: none;
+    border: 1px solid lightgrey;
+}
+
+#serfiel:focus{
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.5);
+}
+
+#lupa{
+    margin-left: -30px;
+}
+
+.img{
+    width: 280px;
+    margin: 0 30px 0 0;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.img:hover{
+    transform: scale(1.1);
+}
+
+#banner_text{
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+    margin: 85px 0 0 0;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#banner{
+    width: 80%;
+    height: 215px;
+    display: flex;
+    gap: 50px;
+    margin: auto;
+}
+
+.banner{
+    width: 350px;
+    position: absolute;
+}
+
+.banner1{
+    animation: banner1  30s infinite;
+}
+
+.banner2{
+    animation: banner2 30s infinite;
+}
+
+.banner3{
+    animation: banner3 30s infinite;
+}
+
+.banner4{
+    animation: banner4 30s infinite;
+}
+
+.banner5{
+    animation: banner5 30s infinite;
+}
+
+.banner6{
+    animation: banner6 30s infinite;
+}
+
+.banner7{
+    animation: banner7 30s infinite;
+}
+
+.banner8{
+    animation: banner8 30s infinite;
+}
+
+@keyframes banner1{
+    12.5%{opacity: 1;}
+    25%{opacity: 0;}
+    37.5%{opacity: 0;}
+    50%{opacity: 0;}
+    62.5%{opacity: 0;}
+    75%{opacity: 0;}
+    87.5%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+@keyframes banner2{
+    12.5%{opacity: 0;}
+    25%{opacity: 1;}
+    37.5%{opacity: 0;}
+    50%{opacity: 0;}
+    62.5%{opacity: 0;}
+    75%{opacity: 0;}
+    87.5%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+@keyframes banner3{
+    12.5%{opacity: 0;}
+    25%{opacity: 0;}
+    37.5%{opacity: 1;}
+    50%{opacity: 0;}
+    62.5%{opacity: 0;}
+    75%{opacity: 0;}
+    87.5%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+@keyframes banner4{
+    12.5%{opacity: 0;}
+    25%{opacity: 0;}
+    37.5%{opacity: 0;}
+    50%{opacity: 1;}
+    62.5%{opacity: 0;}
+    75%{opacity: 0;}
+    87.5%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+@keyframes banner5{
+    12.5%{opacity: 0;}
+    25%{opacity: 0;}
+    37.5%{opacity: 0;}
+    50%{opacity: 0;}
+    62.5%{opacity: 1;}
+    75%{opacity: 0;}
+    87.5%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+@keyframes banner6{
+    12.5%{opacity: 0;}
+    25%{opacity: 0;}
+    37.5%{opacity: 0;}
+    50%{opacity: 0;}
+    62.5%{opacity: 0;}
+    75%{opacity: 1;}
+    87.5%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+@keyframes banner7{
+    12.5%{opacity: 0;}
+    25%{opacity: 0;}
+    37.5%{opacity: 0;}
+    50%{opacity: 0;}
+    62.5%{opacity: 0;}
+    75%{opacity: 0;}
+    87.5%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+@keyframes banner8{
+    12.5%{opacity: 0;}
+    25%{opacity: 0;}
+    37.5%{opacity: 0;}
+    50%{opacity: 0;}
+    62.5%{opacity: 0;}
+    75%{opacity: 0;}
+    87.5%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+#mather2{
+    width: 100%;
+    margin: 60px 0 0 0;;
+}
+
+.img:hover{
+    background-color: white;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.3);
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    margin: 9% 0 0 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+span{
+    color: white;
+    font-size: 22px;
+}
